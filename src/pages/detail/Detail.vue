@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     getDetailInfo () {
-      axios.get('/qunar/mock/detail.json?id=', {
+      axios.get('/qunar/static/mock/detail.json?id=', {
         params: {
           id: this.$route.params.id
         }

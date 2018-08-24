@@ -14,7 +14,7 @@ module.exports = {
       '/qunar': {
         target: 'http://localhost:8080',
         pathRewrite: {
-          '^/qunar': '/static'
+          '^/qunar/static': '/static'
         }
       }
     },

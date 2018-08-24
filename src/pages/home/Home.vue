@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     getHomeInfo () {
-      axios.get('/qunar/mock/index.json?city=' + this.city)
+      axios.get('/qunar/static/mock/index.json?city=' + this.city)
         .then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc (res) {
